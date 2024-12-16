@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+.heading{
+        font-family: Verdana , sans-serif;
+        font-size: 5rem;
+}
+
+body{
+    margin:1%;
+    padding:2%;
+    background-color:#555555 ;
+    font-family: 'Montserrat', sans-serif;
+    color: floralwhite;
+    font-size: 1.4rem;
+}
+
+.carousel-size{
+    max-width: 60%;
+    max-height: 40%;
+}
+
+.touringbikes-button{
+    align-content: center;
+}
+
+.cruiser-heading{
+
+}
+
+.touring-bikes-img{
+    max-height: 40%;
+    max-width: 40%;
+}
