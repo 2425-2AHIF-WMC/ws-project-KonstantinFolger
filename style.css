@@ -23,11 +23,68 @@ body{
     align-content: center;
 }
 
-.cruiser-heading{
-
-}
-
 .touring-bikes-img{
     max-height: 40%;
     max-width: 40%;
+}
+
+.touring-bikes-table  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #636363;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.touring-bikes-table table thead {
+    background-color: #55ace3;
+    color: #4a4a4a;
+}
+
+.touring-bikes-table table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #55ace3;
+}
+
+.touring-bikes-table table th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.touring-bikes-table table tr:nth-child(even) {
+    background-color: rgba(85, 172, 227, 0.3);
+}
+
+.touring-bikes-table table tr:hover {
+    background-color: rgba(85, 172, 227, 0.6);
+}
+
+.touring-bikes-table tr{
+    transition: background-color 0.15s;
+}
+
+.touring-bikes-table table td {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.cruiser-list ul > li:hover{
+    transition: color 0.2s;
+    color:orange;
+}
+
+.cruiser-img-hover div:hover{
+    background-color: grey;
+}
+
+.cruiser-img img{
+    height:40%;
+    width: auto;
+}
+
+.cruiser-p {
+    margin-left: 16%;
 }

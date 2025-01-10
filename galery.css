@@ -5,6 +5,7 @@
     line-height: 0;
     font-size: 600px;
     margin: 5%;
+    overflow: visible;
 }
 
 .galery img {
@@ -37,5 +38,33 @@
     background: linear-gradient(to right, #9a9797, #55ace3);
     -webkit-background-clip: text;
     color: transparent;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cruiser-heading{
+    font-size:5rem;
+    font-weight:bold;
+    background: linear-gradient(to right,#800020,#FF4500);
+    -webkit-background-clip: text;
+    color:transparent;
     display: inline-block;
 }
