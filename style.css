@@ -140,3 +140,8 @@ body {
 .enduro-body {
     z-index: 1;
 }
+
+.cruiser-centered img{
+    display: block;
+    margin: 0 auto;
+}
