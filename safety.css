@@ -16,6 +16,10 @@ li > span {
     color: red;
 }
 
+li > span:hover {
+    text-decoration: underline;
+}
+
 img {
     margin: -3% 20%;
     display: block;
